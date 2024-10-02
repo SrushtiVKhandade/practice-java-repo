@@ -4,7 +4,7 @@
   "networkMode": "awsvpc",
   "containerDefinitions": [
     {
-      "name": "task-defination1",
+      "name": "task",
       "image": "442042551387.dkr.ecr.ap-southeast-1.amazonaws.com/final-project:f1e0d0289fe213911d152ec15a02db100531c53f",
       "essential": true,
       "memory": 512,
