@@ -31,7 +31,7 @@ jobs:
  
       - name: create cluster.
         run: |
-          aws ecs create-cluster --cluster-name test-cluster
+          aws ecs create-cluster --cluster-name test
 
       - name: Create Task Definition
         run: |
@@ -58,7 +58,7 @@ jobs:
       - name: Create ECS Service
         env:
           AWS_REGION: ap-southeast-1
-          ECS_CLUSTER: test-cluster
+          ECS_CLUSTER: test-
           ECS_SERVICE: test-service
           ECS_TASK_DEFINITION: task-defination1
           COUNT: 1
