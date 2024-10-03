@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "image",
-            "image": "376129856863.dkr.ecr.us-east-2.amazonaws.com/test-repo",
+            "image": "376129856863.dkr.ecr.us-east-2.amazonaws.com/test-repo:latest",
             "cpu": 0,
             "portMappings": [
                 {
